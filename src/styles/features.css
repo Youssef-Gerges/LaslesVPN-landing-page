@@ -1,0 +1,6 @@
+.features-list li {
+  background: url('../assets/imgs/list_style.png') left center no-repeat;
+  padding-left: 2rem;
+  padding-top: 1px;
+  line-height: 3rem;
+}

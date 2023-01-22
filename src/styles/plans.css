@@ -1,0 +1,25 @@
+.plan {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 3rem 3rem 3rem;
+  gap: 1rem;
+  border-radius: 1rem;
+  transition: 0.3s all ease;
+  border: 2px transparent solid;
+}
+.plan:hover {
+  box-shadow: 0px 0px 10px -3px #f53838;
+  border: 2px #f53838 solid;
+}
+
+.plan ul {
+  line-height: 2.5rem;
+  margin: 2rem 0;
+}
+
+.plan ul li {
+  background: url('../assets/imgs/plan_list_style.png') left center no-repeat;
+  padding-left: 3rem;
+}

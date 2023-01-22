@@ -1,0 +1,27 @@
+.info-card {
+  z-index: 10000000;
+  box-shadow: 0px 30px 20px #0000000a;
+  display: flex;
+  /* gap: 5rem; */
+  @apply md:flex-row flex-col md:w-[75vw] w-11/12;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 5rem;
+  padding: 1rem 0;
+}
+.info-card .col {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 2.5rem;
+}
+.info-card .col:not(.info-card .col:last-child) {
+  @apply md:border-r-[#eeeff2] md:border-r;
+}
+
+.info-card .col .number {
+  font-weight: 700;
+}

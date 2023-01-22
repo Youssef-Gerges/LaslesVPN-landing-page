@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'rubik';
+  src: url('../assets/fonts/Rubik-VariableFont_wght.ttf');
+}
+
+* {
+  font-family: 'rubik';
+  color: #4f5665;
+}
+
+a:hover {
+  color: #f53838;
+}
+
+.btn-primary {
+  @apply border-2 border-[#F53838] hover:bg-[#F53838] hover:text-white rounded-full py-2 px-8 text-[#F53838] font-semibold transition-all;
+}

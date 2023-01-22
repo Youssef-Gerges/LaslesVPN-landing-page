@@ -1,0 +1,31 @@
+.nav-list li {
+  position: relative;
+}
+.nav-list li a::after {
+  transition: all 0.3s ease;
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #f53838;
+  transform: scaleX(0);
+}
+.nav-list li a:hover::after {
+  transform: scaleX(1);
+}
+
+.hero-btn {
+  background: #f53838;
+  color: white;
+  padding: 0.75rem 4rem;
+  border-radius: 0.5rem;
+  box-shadow: 7px 22px 50px -10px #f53838;
+  transition: 0.2s cubic-bezier(0.62, 1.01, 0.43, 0.19) all;
+  font-weight: 500;
+}
+.hero-btn:hover {
+  transform: translate(5px, -10px);
+  box-shadow: -5px 15px 25px -3px #f53838;
+}
